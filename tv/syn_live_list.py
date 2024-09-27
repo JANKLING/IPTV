@@ -10,10 +10,10 @@ def print_current_time(message):
     print(f"{message} {current_time}")
 
 # 从环境变量获取 GitHub 令牌
-GITHUB_TOKEN = os.getenv('MY_GITHUB_TOKEN')
+#GITHUB_TOKEN = os.getenv('MY_GITHUB_TOKEN')
 
-if not GITHUB_TOKEN:
-    raise ValueError("GITHUB_TOKEN is not set")
+#if not GITHUB_TOKEN:
+#    raise ValueError("GITHUB_TOKEN is not set")
 
 # 需要下载并处理的文件URL
 urls_to_process = [
