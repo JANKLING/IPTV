@@ -18,8 +18,8 @@ jobs:
     # 步骤2：配置 Git 用户信息
     - name: Set up Git
       run: |
-        git config --global user.name "vbskycn"
-        git config --global user.email "88164962@qq.com"
+        git config --global user.name "JANKLING"
+        git config --global user.email "nijatv77@OUTLOOK.COM"
 
     # 步骤3：下载指定文件
     - name: Download files
