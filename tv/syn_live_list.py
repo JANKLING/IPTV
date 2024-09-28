@@ -9,6 +9,8 @@ def print_current_time(message):
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"{message} {current_time}")
 
+
+
 # 从环境变量获取 GitHub 令牌
 GITHUB_TOKEN = os.getenv('MY_GITHUB_TOKEN')
 
