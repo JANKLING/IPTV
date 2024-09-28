@@ -30,8 +30,8 @@ os.chdir(script_path)
 print("切换到程序所在目录...")
 
 # 3. 设置 Git 用户名和邮箱
-run_command('git config user.name "vbskycn"', cwd=repo_root)
-run_command('git config user.email "zhoujie218@gmail.com"', cwd=repo_root)
+run_command('git config user.name "JANKLING"', cwd=repo_root)
+run_command('git config user.email "nijatv77@OUTLOOK.COM"', cwd=repo_root)
 # 3. 设置 Git 用户名和邮箱
 # run_command('git config user.name "vbskycn"', cwd=repo_root)
 # run_command('git config user.email "zhoujie218@gmail.com"', cwd=repo_root)
